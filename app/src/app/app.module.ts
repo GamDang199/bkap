@@ -8,6 +8,7 @@ import { OrderComponent } from './layout/order/order.component';
 import { ManageProductComponent } from './layout/manage-product/manage-product.component';
 import { ManageCategoryComponent } from './layout/manage-category/manage-category.component';
 import { ManageUserComponent } from './layout/manage-user/manage-user.component';
+import { ErrorComponent } from './components/error/error.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ManageUserComponent } from './layout/manage-user/manage-user.component'
     OrderComponent,
     ManageProductComponent,
     ManageCategoryComponent,
-    ManageUserComponent
+    ManageUserComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
